@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel.css" type="css/text">
+    <script defer src="hotel.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div id="login" >
+    <fieldset id="log"><legend>Login here</legend>
+        <label for="" class="lbl">Username</label>
+        <input type="text" class="int"><br>
+        <label for="" class="lbl">Password</label>
+        <input type="text" class="int" id="pwd"><br>
+        <button class="btn">Login</button>
+    </fieldset>
+    </div>
+        <br>
+        <br>
+    <div id="sign_up">
+        <fieldset class="sign"><legend>Sign Up here</legend>
+        <label for="" class="lbl">First Name</label>
+        <input type="text" class="int"><br>
+        <label for="" class="lbl">Last Name</label>
+        <input type="text" class="int"><br>
+        <label for="" class="lbl">Password</label>
+        <input type="text" class="int" id="pwd"><br>
+        <label for="" class="lbl">Confirm Password</label>
+        <input type="text" class="int" id="pwd"><br>
+        <button class="btn">Login</button>
+        </fieldset>
+    </div>
+    <style>
+    .sign{
+        margin-top: 5px;
+        display: none;
+        justify-content: center;
+        align-content: center;
+        height: 450px;
+        width: 300px;
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+        left: 450px;
+        border-radius: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #log{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 300px;
+        width: 300px;
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+        left: 450px;
+        border-radius: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .lbl{
+        font-size: 20px;
+        color: brown;
+        font-weight: 500;
+        position: relative;
+        left: 50px;
+    }
+
+    .int{
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: none;
+        height: 25px;
+        font-size: 20px;
+        padding: 5px;
+        width: 12rem;
+        display: flex;
+        position: relative;
+        left: 45px;
+        margin: 5px;
+    }
+
+    .btn{
+        padding: 5px;
+        width: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 6rem;
+    }
+
+    </style>
+</body>
+</html>
